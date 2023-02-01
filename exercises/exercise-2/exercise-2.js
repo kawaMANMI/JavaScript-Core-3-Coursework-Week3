@@ -70,3 +70,7 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+let [allFirstNames  = hogwarts.map((elm) => elm.firstName);
+
+console.log(allFirstNames);

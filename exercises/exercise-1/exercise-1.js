@@ -5,7 +5,6 @@ const personOne = {
 };
 
 function introduceYourself(obj) {
-  console.log(obj)
   let { name, age, favouriteFood } = obj;
   console.log(
     `Hello, my name is ${name}. I am ${age} years old and my favourite food is ${favouriteFood}.`

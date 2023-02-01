@@ -15,6 +15,9 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+Ans:
+x inside the function is local variable and only is defined inside f1 function. So, first console is 2.
+While x at the beginning is global. So second console log gives 1.
 
 ## Question 2
 
@@ -34,6 +37,16 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+Ans:
+The output will be
+10
+undefined
+error
+
+Since x is global and defined. Therefore, it is defined every where.
+The function f1() does not have return the console.log(f1()). The output is undefined.
+y is not defined outside the function. Therefore, console.log(y) produce error.
 
 ## Question 3
 
@@ -62,3 +75,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+Step 64: execute
